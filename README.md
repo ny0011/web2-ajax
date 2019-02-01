@@ -12,7 +12,15 @@ onchange property
 : property에 해당하는 태그 안에서(ex: text) 무언가 변할 때
 
 동작이 일어나는 것 : 이벤트(event)
-구글에 이벤트 검색하고 싶을 때 : javascript xxx event 
+구글에 이벤트 검색하고 싶을 때 : javascript xxx event
+
+웹 브라우저에서 F12 -> Console 창에서 자바스크립트를 바로 실행시킬 수 있다
+<<<<<<< HEAD
+
+참고 링크 : https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/Variables
+
+=======
+>>>>>>> d06cee6f0d13c4f8923cef5d3f179184493be9dc
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
