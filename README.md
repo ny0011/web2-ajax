@@ -25,6 +25,11 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 위의 문서에서 string, number와 관련된 함수 등을 찾을 수 있으니 직접 찾아보자~
 
+[변수]
+var name = 'ny0011';
+alert("fjijsdolfj  "+name+"ljwoejflojsd");
+문자열에 변수값을 추가하고 싶으면 " + 변수이름 + " 요렇게 쓰자
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
