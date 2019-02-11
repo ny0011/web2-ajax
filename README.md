@@ -49,6 +49,15 @@ html에서 <는 tag 예약어니까 &lt; 나 &gt; 를 써준다
 if() {} else {}
 () 안에 true, false 값을 갖는 비교 연산자나 Boolean 데이터 타입을 적는다.
 
+[조건문의 활용]
+버튼 하나로 배경을 바꾸고 싶음
+1. 새 버튼을 만듦
+2. onclick 이벤트에서 만약 현재 상태가 day면 night, night면 day로 바꾸고 싶음
+3. 현재 상태를 가져오는 JavaScript 함수를 찾아보자 : javascript element get value
+-> .value
+-> 조건문 ()에 document.querySelector('#night_day').value 를 써주자
+4. 한번 더 버튼을 누르면 실행이 안됨 -> value값도 버튼 누를 때 바꿔줘야 함
+
 
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
