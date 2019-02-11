@@ -40,6 +40,10 @@ https://www.w3schools.com/jsref/dom_obj_style.asp
 5. JavaScript가 배경색을 변경하는 방법 : javascript style background color
 https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp
 
+[비교 연산자와 Boolean 데이터 타입]
+=== : 이항 연산자. 오른쪽과 왼쪽값을 비교해서 같으면 True, 다르면 False
+Boolean : True, False
+html에서 <는 tag 예약어니까 &lt; 나 &gt; 를 써준다
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
