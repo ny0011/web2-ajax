@@ -58,6 +58,13 @@ if() {} else {}
 -> 조건문 ()에 document.querySelector('#night_day').value 를 써주자
 4. 한번 더 버튼을 누르면 실행이 안됨 -> value값도 버튼 누를 때 바꿔줘야 함
 
+[리팩토링]
+중복을 제거해보자!
+1. document.querySelector('#night_day')는 태그 자기 자신을 가리키는 것과 같은 의미가 됨
+-> 태그 자신을 가리키는 용어 : this
+2. document.querySelector('body')는 4번이나 중복되어 나타남.
+-> 변수를 써보자
+var target = document.querySelector('body');
 
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
