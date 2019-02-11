@@ -30,6 +30,16 @@ var name = 'ny0011';
 alert("fjijsdolfj  "+name+"ljwoejflojsd");
 문자열에 변수값을 추가하고 싶으면 " + 변수이름 + " 요렇게 쓰자
 
+[제어할 태그 선택]
+1. body 태그 배경을 바꾸는 버튼 태그를 생성 : <input type="button" value="night">
+2. 버튼을 눌렀을 때 배경이 변경되는 이벤트를 만들고 싶음 : onclick=""
+3. JavaScript가 body태그를 찾는 방법을 알아보자 : javascript select tag by css selector
+https://developer.mozilla.org/ko/docs/Web/API/Document/querySelector
+4. JavaScript가 스타일을 변경하는 방법을 알아보자 : javascript element style
+https://www.w3schools.com/jsref/dom_obj_style.asp
+5. JavaScript가 배경색을 변경하는 방법 : javascript style background color
+https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
