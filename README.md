@@ -42,8 +42,14 @@ https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp
 
 [비교 연산자와 Boolean 데이터 타입]
 === : 이항 연산자. 오른쪽과 왼쪽값을 비교해서 같으면 True, 다르면 False
-Boolean : True, False
+Boolean : true, false
 html에서 <는 tag 예약어니까 &lt; 나 &gt; 를 써준다
+
+[조건문]
+if() {} else {}
+() 안에 true, false 값을 갖는 비교 연산자나 Boolean 데이터 타입을 적는다.
+
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
