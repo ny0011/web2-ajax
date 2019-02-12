@@ -66,6 +66,12 @@ if() {} else {}
 -> 변수를 써보자
 var target = document.querySelector('body');
 
+[배열]
+검색 키워드
+javascript array count
+javascript array add data
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
