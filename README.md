@@ -72,6 +72,11 @@ javascript array count
 javascript array add data
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
 
+[반복문]
+배열과 반복문이 같이 있을 때 서로의 효과가 두드러진다!
+데이터 영역과 기능 영역을 분리할 수 있는 효과
+
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
