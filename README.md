@@ -76,6 +76,13 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Ar
 배열과 반복문이 같이 있을 때 서로의 효과가 두드러진다!
 데이터 영역과 기능 영역을 분리할 수 있는 효과
 
+[배열과 반복문의 활용]
+a 태그 전부의 색을 바꿔보고 싶다
+1. a 태그 전부를 검색하는 방법? javascript get element by css selector multiple
+document.querySelectorAll()
+2. 검색한 태그를 변수에 저장 -> Nodelist지만 배열처럼 사용할 수 있음
+3. 변수에 저장된 alist[i]는 태그니까 태그의 색을 바꾸고 싶으면 .style.color 를 추가하면 됨.
+
 
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
