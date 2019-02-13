@@ -119,6 +119,11 @@ LinksSetColor()
 Body.setColor()
 Links.setColor()
 
+[파일로 쪼개서 정리 정돈하기]
+지금까지 작성한 js코드를 억개 페이지에 배포한다고 생각하면 수정 한번할 때마다 억번...
+-> 코드를 파일로 만들자!
+-> 파일 위치만 페이지에 복붙하면 끝
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
