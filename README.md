@@ -96,6 +96,18 @@ return : 출력
 -> 매개변수로 this값을 받도록 함
 -> function nightDayHandler(self) {}
 
+[객체]
+정보를 순서대로 저장하는 것 -> 배열
+정보를 이름으로 불러서 꺼내는 것 -> 객체
+key이름에 띄어쓰기가 들어가면 ""로 묶어서 배열처럼 정의하면 됨.
+cowerkers["data scientist"] = "dd";
+- 반복문 : javascript object iterate
+https://stackoverflow.com/questions/14379274/how-to-iterate-over-a-javascript-object
+- 메소드(method) : 객체에 소속된 함수
+- 프로퍼티(property) : 객체에 소속된 변수
+객체 자신을 가리키는 것 : this
+cowerkers.showAll = function(){} // showAll이 cowerkers에 속해있기 때문에 showAll : 부분이 html에 출력됨
+
 
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
