@@ -95,6 +95,7 @@ return : 출력
 2. 그런데 함수 안 this들은 그 함수가 있는 태그를 가리키니까 함수로 따로 빼면 작동하지 않음
 -> 매개변수로 this값을 받도록 함
 -> function nightDayHandler(self) {}
+javascript의 this : https://k9e4h.tistory.com/141
 
 [객체]
 정보를 순서대로 저장하는 것 -> 배열
@@ -108,6 +109,15 @@ https://stackoverflow.com/questions/14379274/how-to-iterate-over-a-javascript-ob
 객체 자신을 가리키는 것 : this
 cowerkers.showAll = function(){} // showAll이 cowerkers에 속해있기 때문에 showAll : 부분이 html에 출력됨
 
+[객체의 활용]
+중복되는 코드를 정리하기 위한 도구.
+nightDayHandler 함수에서 중복되는 코드를 전부 함수로 만들고 나서 보니 이름들 설정하기 애매함
+BodySetColor()
+LinksSetColor()
+-> setColor가 body인지 link인지 이름을 일일이 써줘야 할 수 있음
+-> body와 link를 객체로 만들어보자!
+Body.setColor()
+Links.setColor()
 
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
