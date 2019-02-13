@@ -83,6 +83,12 @@ document.querySelectorAll()
 2. 검색한 태그를 변수에 저장 -> Nodelist지만 배열처럼 사용할 수 있음
 3. 변수에 저장된 alist[i]는 태그니까 태그의 색을 바꾸고 싶으면 .style.color 를 추가하면 됨.
 
+[함수]
+코드 중복이 여러 곳에서 반복문을 쓰기 어려운 상황에서 쓴다!
+Parameter : 입력
+return : 출력
+-> 입출력을 설정해줘서 특정 기능만 수행하도록 코딩 가능
+
 
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
