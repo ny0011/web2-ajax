@@ -89,6 +89,13 @@ Parameter : 입력
 return : 출력
 -> 입출력을 설정해줘서 특정 기능만 수행하도록 코딩 가능
 
+[함수의 활용]
+지금까지 바꿨던 배경색 변경하는 코드를 함수에 넣어 다른 곳에서도 사용하고 싶음
+1. function nightDayHandler() {}
+2. 그런데 함수 안 this들은 그 함수가 있는 태그를 가리키니까 함수로 따로 빼면 작동하지 않음
+-> 매개변수로 this값을 받도록 함
+-> function nightDayHandler(self) {}
+
 
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
