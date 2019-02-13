@@ -133,6 +133,21 @@ https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB
 [jQuery]
 jQuery 구문 한 줄을 쓰면 jQuery가 대신 일 해줌!
 
+[UI vs API]
+UI : 사용자가 보는 화면
+API :
+
+[수업 끗] - 더 알고 싶을 때 찾아볼 키워드
+태그를 수정하고 싶을 때 : document 객체 찾아보기 -> DOM 객체
+웹페이지 자체 -> window 객체
+웹페이지를 reload 하지 않고 정보를 변경하고 싶을 때 -> ajax
+웹페이지를 reload 되어도 현재 상태를 유지하고 싶을 때 -> cookie 사용자를 위한 개인화 서비스 제공 가능
+인터넷이 안돼도 동작하는 웹페이지 -> offline web application
+화상통신 웹앱 -> webRTC
+사용자의 음성을 인식 -> speech 
+3차원 그래픽으로 게임만들기? -> webGL
+가상현실 -> webVR
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
