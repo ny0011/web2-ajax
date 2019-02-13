@@ -124,6 +124,15 @@ Links.setColor()
 -> 코드를 파일로 만들자!
 -> 파일 위치만 페이지에 복붙하면 끝
 
+[library vs framework]
+library : 재사용할 수 있는 sw. 가져와서 쓰는 느낌 ex) jQuery - cdn : https://developers.google.com/speed/libraries/#jquery
+framework : 어떤 것(웹, 앱, 게임, ...)을 만들 때 공통적으로 필요한 부분만 모아둔 것. 프레임워크 안에서 기능 변경하는 느낌 ex)
+cdn : script src로 링크로 library를 가져오는 기능. 다운로드 할 필요 없음
+https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC
+
+[jQuery]
+jQuery 구문 한 줄을 쓰면 jQuery가 대신 일 해줌!
+
 ```
 <strong>reference : Coding Everyday(WEB2 - JavaScript, creator : egoing)</strong>
 <p>
