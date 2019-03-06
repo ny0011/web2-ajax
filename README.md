@@ -32,6 +32,18 @@ fetch('Javascript') : Javascript라는 파일을 찾아달라고 client가 serve
 
 for문으로 console.log를 1000번쯤 찍으니 다 찍을 때까지 기다리고 'response end'가 실행되는듯...
 
+[fetch API - response 객체]
+fetch('html').then(function(response){})에서 function(response){}는 익명함수!
+
+callbackme = function(){};
+fetch('html').then(callbackme); 와 같은 의미임
+
+function(response){}가 호출될 때 response를 매개변수로 함.
+response는 뭘까?
+response 객체의 속성값들이 들어있는데 그 중 status = 200인 것이 있음
+server가 정상적으로 파일을 찾았으면 200을 보냄(ok)
+server가 못찾으면 404를 보냄(not found)
+
 
 ```
 

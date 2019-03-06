@@ -21,14 +21,15 @@
                 })
         })
     */
-    function callbackme(){
-        console.log('response end');
-    }
 
-    fetch('html').then(callbackme);
-    for(var i = 0; i<1000 ; i++){
-        console.log(i);
-    }
+
+    fetch('javascript').then(function(response){
+        if(response.status == '404'){
+            alert('Not Found');
+        }
+    });
+    console.log(1);
+    console.log(2);
 
     ">
 </body>
