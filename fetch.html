@@ -13,12 +13,23 @@
             alert(text);
         })
     */
+    /*
         fetch('html').then(function(response){
                 response.text().then(function(text){
                     // alert(text);
                     document.querySelector('article').innerHTML = text;
                 })
         })
+    */
+    function callbackme(){
+        console.log('response end');
+    }
+
+    fetch('html').then(callbackme);
+    for(var i = 0; i<1000 ; i++){
+        console.log(i);
+    }
+
     ">
 </body>
 
