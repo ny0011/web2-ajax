@@ -59,8 +59,12 @@ server가 못찾으면 404를 보냄(not found)
 => 해쉬(북마크) 기능을 쓰자
 
 내가 가리키고 싶은 태그에 id 값을 주면 링크로 그 위치를 찾을 수 있다
-=> id를 fragment identifier라고도 부름
+=> id를 fragment identifier라고도 부름.
+=> id값으로 링크 위치를 표시
 http://127.0.0.1:81/hash.html#three
+
+링크를 찾을 때 a href를 사용함
+<a href="#three">three</a>
 
 url에서 #에 해당하는 값을 javascript에서 찾고 싶을 때?
 https://stackoverflow.com/questions/298503/how-can-you-check-for-a-hash-in-a-url-using-javascript
@@ -69,6 +73,9 @@ https://stackoverflow.com/questions/298503/how-can-you-check-for-a-hash-in-a-url
 문자열 조각을 substring이라고 부름
 how to get substring in javascript
 https://www.w3schools.com/jsref/jsref_substring.asp
+
+- 적용
+a href="#!html" => 해시 기능을 쓸 때 #!라고 붙임
 
 ```
 
