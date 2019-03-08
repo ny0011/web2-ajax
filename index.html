@@ -37,7 +37,17 @@ if (location.hash) {
 
 fetch('list').then(function(response){
     response.text().then(function(text){
-        document.querySelector('#nav').innerHTML = text;
+        console.log(text);
+        var lists = text.split(','); // 공백 제거
+        var tags = '';
+
+        for(i=0;i<lists.length;i++){
+            var listName = lists[i];
+            listName = listName.trim();
+            var tag = '<li><a href="#!'+listName+'" onclick="fetchPage(\''+ listName +'\')">'+ listName +'</a></li>';
+            tags += tag;
+        }
+        document.querySelector('#nav').innerHTML = tags;
     })
 })
 

@@ -91,10 +91,19 @@ a href="#!html" => 해시 기능을 쓸 때 #!라고 붙임. hash bang(?)
 data : 바뀔 수 있는 부분 -> html, css, javascript 글 목록
 -> 페이지가 로딩될 때 글 목록을 불러오기
 ☆ index.html에 있던 내용들은 파일로 만들어지고 그 내용이 들어갈 껍데기만 남음! 싱기
-index를 수정하지 않고 내용 파일만 수정하면 됨.
+index.html를 수정하지 않고 내용 파일만 수정하면 됨.
 
+2. list로 빼내어보니 중복이 보임...
+- 중복을 제거해보자!
+1) list에는 html,css,javascript만 남겨두고 태그부분 지운다
+2) index.html 수정
+- ,를 구분자로 해서 list들을 하나씩 분리. 배열로 만들자
+-> how to make array from string in javascript https://www.w3schools.com/jsref/jsref_split.asp
+'를 문자열로 한다면 \' 로 써주자
 
-
+- 줄바꿈때문에 맨 마지막에는 javascript가 이상하게 됨
+-> how to remove front back whitespace in string javascript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
 
 ```
 
