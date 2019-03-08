@@ -75,7 +75,17 @@ how to get substring in javascript
 https://www.w3schools.com/jsref/jsref_substring.asp
 
 - 적용
-a href="#!html" => 해시 기능을 쓸 때 #!라고 붙임
+a href="#!html" => 해시 기능을 쓸 때 #!라고 붙임. hash bang(?)
+만약 http://127.0.0.1:81/index.html#!html 링크로 페이지에 접근했을 때 바로 html 내용을 보고 싶으면?
+
+- 문제점
+1. 검색엔진 최적화가 안됨
+-> 백엔드에서 동적으로 가져옴.
+-> 내용을 볼 수 없음
+2. navigation(페이지 이전←, 이후→ 가져오기)를 했을 때 페이지 리로딩이 안됨
+-> pjax가 새로 나옴
+
+
 
 ```
 

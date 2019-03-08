@@ -7,14 +7,14 @@
 <script src="colors.js"></script>
 </head>
 <body>
-  <h1><a href="index.html">WEB</a></h1>
+  <h1><a href="#welcome" onclick="fetchPage('welcome')">WEB</a></h1>
   <input type="button" value="night" onclick="
       nightDayHandler(this);
   ">
 <ol>
-	<li><a onclick="fetchPage('html')">HTML</a></li>
-	<li><a onclick="fetchPage('css')">CSS</a></li>
-	<li><a onclick="fetchPage('javascript')">JavaScript</a></li>
+	<li><a href="#!html" onclick="fetchPage('html')">HTML</a></li>
+	<li><a href="#!css" onclick="fetchPage('css')">CSS</a></li>
+	<li><a href="#!javascript" onclick="fetchPage('javascript')">JavaScript</a></li>
 </ol>
 
 <article>
@@ -27,6 +27,12 @@ function fetchPage(name){
             document.querySelector('article').innerHTML = text;
         })
     })
+}
+
+if (location.hash) {
+    fetchPage(location.hash.substring(2)); // #!html이면 2번째까지 버리기
+}else{
+    fetchPage('welcome');
 }
 </script>
 
