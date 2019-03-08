@@ -105,6 +105,16 @@ index.html를 수정하지 않고 내용 파일만 수정하면 됨.
 -> how to remove front back whitespace in string javascript
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
 
+[fetch API polyfill]
+fetch API는 최근에 나온 거라서 오래된 브라우저에 호환이 되지 않을 수 있따
+https://caniuse.com/#search=fetch
+fetch는 XMLHttpRequest를 대체하는 것.
+-> 만약에 호환 안되는 곳에도 지원하고 싶으면?
+-> fetch API polyfill 을 사용하자
+https://github.com/github/fetch
+음.. CDN으로 링크를 걸어주자
+
+
 ```
 
 

@@ -5,6 +5,8 @@
 <meta charset="utf-8">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="colors.js"></script>
+<script src=https://cdn.jsdelivr.net/npm/promise-polyfill@8.1/dist/polyfill.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/whatwg-fetch@3.0/dist/fetch.umd.min.js></script>
 </head>
 <body>
 
@@ -12,14 +14,13 @@
   <input type="button" value="night" onclick="
       nightDayHandler(this);
   ">
-<ol id="nav">
-        <!-- 요 부분은 data. 바뀔 수 있는 부분  -->
-    <!-- data 부분은 따로 빼고 싶음 -->
-</ol>
 
-<article>
+ <!-- 글 목록 -->
+<ol id="nav"></ol>
 
-</article>
+<!-- 내용 -->
+<article></article>
+
 <script>
 function fetchPage(name){
     fetch(name).then(function(response){
