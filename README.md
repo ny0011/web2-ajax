@@ -114,6 +114,21 @@ fetch는 XMLHttpRequest를 대체하는 것.
 https://github.com/github/fetch
 음.. CDN으로 링크를 걸어주자
 
+[수업을 마치며]
+웹은 그대로 문서이고 지금한 것은 동적이고 사용자 친화적인 요소를 추가한 것.
+웹은 검색도 되고 애플리케이션도 됨.
+
+Ajax는 asynchronous javascript and XML 인데 XML을 살펴보지 않았음...!
+list에서 html,css,javascript,ajax로 제목을 표현하고 있지만 한계가 잇음. -> XML을 사용해보자
+XML의 경쟁자인 JSON. JSON이 XML보다 많이 쓰려고 하는 추세.
+간결하고 javascript, python등 앱단에서 쓰기 쉬움.
+JSON을 한번 배워봐도..?
+
+Single Page Application : reload 없이 페이지를 변경하는 것. 우리는 기초만 해본것.
+-> Pjax(pushState + ajax)
+
+Progressive Web Apps : SPA기반으로 만들어진 웹에 오프라인에서 동작하도록 특성을 추가.
+
 
 ```
 
